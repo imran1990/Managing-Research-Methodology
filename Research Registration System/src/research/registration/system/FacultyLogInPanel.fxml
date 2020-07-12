@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="FacultyPannel" prefHeight="403.0" prefWidth="445.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="research.registration.system.FacultyLogInPanelController">
+   <children>
+      <Label layoutX="75.0" layoutY="62.0" prefHeight="36.0" prefWidth="343.0" text="FACULTY LOGIN PANEL" textFill="#0bc672">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Label>
+      <Label layoutX="75.0" layoutY="125.0" prefHeight="25.0" prefWidth="139.0" text="Faculty Initial" textFill="#3cb7e4">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="FacultyDisplayField" layoutX="70.0" layoutY="157.0" prefHeight="25.0" prefWidth="195.0" promptText="Enter Initial" />
+      <Label layoutX="70.0" layoutY="202.0" prefHeight="25.0" prefWidth="139.0" text="Password" textFill="#3fbad0">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+      <TextField fx:id="PasswordDisplayField" layoutX="70.0" layoutY="240.0" prefHeight="25.0" prefWidth="195.0" promptText="Enter Password" />
+      <Button layoutX="187.0" layoutY="275.0" mnemonicParsing="false" onAction="#LogInButtonAction" prefHeight="25.0" prefWidth="78.0" text="LogIn" textFill="#2596db">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Button>
+      <Label fx:id="notification" layoutX="34.0" layoutY="345.0" prefHeight="36.0" prefWidth="435.0" />
+   </children>
+</AnchorPane>
